@@ -58,6 +58,7 @@
     </dependencies>
 
     <build>
+        <finalName>weather-app</finalName>
         <plugins>
             <!-- Spring Boot Maven Plugin -->
             <plugin>
