@@ -15,7 +15,7 @@ const Weather = () => {
     }
 
     try {
-      const response = await axios.get(`cdcity=${city}`);
+      const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/weather?city=${city}`);
       if (response.data) {
         setWeather(response.data);
         setError(null);
