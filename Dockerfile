@@ -4,6 +4,6 @@ RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
 VOLUME /tmp
-COPY target/*.jar weather-app.jar
+COPY /target/weather-app.jar weather-app.jar
 EXPOSE 8081
 ENTRYPOINT ["java","-jar","weather-app.jar"]
