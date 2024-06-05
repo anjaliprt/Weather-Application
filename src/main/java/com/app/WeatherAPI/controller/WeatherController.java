@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://weather-application-home.onrender.com/")
+@CrossOrigin(origins = "https://weather-application-home.onrender.com")
 
 public class WeatherController {
 
