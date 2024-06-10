@@ -1,3 +1,4 @@
+com\app\WeatherAPI\config\WebConfig.class
 com\app\WeatherAPI\service\WeatherService.class
 com\app\WeatherAPI\controller\WeatherController.class
 com\app\WeatherAPI\WeatherApiApplication.class
